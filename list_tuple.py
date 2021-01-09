@@ -105,57 +105,18 @@ print(list_menu)
 #with params reverse=True
 list_menu.sort(reverse=True)
 print(list_menu)
-print("Tuple Manipulation")
 
-print(">>> Fitur .count()")
-tuple_score = ('Budi', 'Sud', 'Budi', 'Budi', 'Budi', 'Sud', 'Sud')
-score_budi = tuple_score.count('Budi')
-score_sud = tuple_score.count('Sud')
-print(score_budi) # akan menampilkan output 4
-print(score_sud) # akan menampilkan output 3
-# Fitur .index()
-print(">>> Fitur .index()")
-tuple_score = ('Budi','Sud','Budi','Budi','Budi','Sud','Sud')
-score_pertama_sud = tuple_score.index('Sud')+1
-print(score_pertama_sud)
 
-print("Set Manipulation")
 
-# Fitur .add()
-print(">>> Fitur .add()")
-set_buah = {'Jeruk','Apel','Anggur'}
-set_buah.add('Melon')
-print(set_buah)
 
-# Fitur .clear()
-print(">>> Fitur .clear()")
-set_buah = {'Jeruk','Apel','Anggur'}
-set_buah.clear()
-print(set_buah)
 
-# Fitur .copy()
-print(">>> Fitur .copy()")
-set_buah1 = {'Jeruk','Apel','Anggur'}
-set_buah2 = set_buah1
-set_buah3 = set_buah1.copy()
-set_buah2.add('Melon')
-set_buah3.add('Kiwi')
-print(set_buah1)
-print(set_buah2)
-# Fitur .update()
-print(">>> Fitur .update()")
-parcel1 = {'Anggur','Apel','Jeruk'}
-parcel2 = {'Apel','Kiwi','Melon'}
-parcel1.update(parcel2)
-print(parcel1)
-# Fitur .pop()
-print(">>> Fitur .pop()")
-parcel = {'Anggur','Apel','Jeruk'}
-buah = parcel.pop()
-print(buah)
-print(parcel)
-# Fitur .remove()
-print(">>> Fitur .remove()")
-parcel = {'Anggur','Apel','Jeruk'}
-parcel.remove('Apel')
-print(parcel)
+
+
+
+
+
+
+
+
+
+
